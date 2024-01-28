@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ola.md",
+                "file": "Planteamiento y objetivos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ola.md",
+                "file": "Planteamiento y objetivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ola.md",
+                "file": "Planteamiento y objetivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ola.md"
+                "file": "Planteamiento y objetivos.md"
               }
-            }
-          },
-          {
-            "id": "4103c3497558737a",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
             }
           },
           {
@@ -146,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -162,11 +154,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "7a32018e23d8cb67",
+  "active": "7fe9db371a49f396",
   "lastOpenFiles": [
+    "0 - Home.md",
+    "Planteamiento y objetivos.md",
     "ola.txt",
-    "Nuevo Documento de texto.txt",
-    "ola.md",
-    "Hola mundo.md"
+    "Nuevo Documento de texto.txt"
   ]
 }
