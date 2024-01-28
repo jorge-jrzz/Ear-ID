@@ -11,11 +11,10 @@
             "id": "7effd05441cf5b3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Hola mundo.md",
-                "mode": "source",
-                "source": false
+                "staged": false,
+                "file": "Hola mundo.md"
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hola mundo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hola mundo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hola mundo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,9 +131,17 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "7a32018e23d8cb67",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -154,7 +157,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2d9d77fa1474bbee",
+  "active": "7effd05441cf5b3f",
   "lastOpenFiles": [
     "Hola mundo.md"
   ]
