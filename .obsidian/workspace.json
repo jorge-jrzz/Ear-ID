@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "73eb03b1277f7ee2",
+        "id": "72472279ec164c49",
         "type": "tabs",
         "children": [
           {
-            "id": "7effd05441cf5b3f",
+            "id": "7fe9db371a49f396",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "staged": false,
-                "file": "Hola mundo.md"
+                "file": "ola.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ola.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ola.md"
+              }
             }
           },
           {
@@ -157,8 +162,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "7effd05441cf5b3f",
+  "active": "7fe9db371a49f396",
   "lastOpenFiles": [
+    "ola.md",
     "Hola mundo.md"
   ]
 }
