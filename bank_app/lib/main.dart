@@ -168,9 +168,7 @@ class _CameraPreviewScreenState extends State<CameraPreviewScreen>
             child: Center(
               child: FadeTransition(
                 opacity: _controller,
-                child: Image.asset('assets/EarIDicon.png',
-                    width:
-                        100), // Asegúrate de reemplazar esto con la ruta a tu imagen
+                child: Image.asset('assets/EarIDicon.png', width: 100),
               ),
             ),
           ),
@@ -201,7 +199,10 @@ class _CameraScreenState extends State<CameraScreen> {
   @override
   void initState() {
     super.initState();
-    controller = CameraController(widget.cameras[0], ResolutionPreset.medium,
+    final frontCamera = widget.cameras.firstWhere(
+      (camera) => camera.lensDirection == CameraLensDirection.front,
+    );
+    controller = CameraController(frontCamera, ResolutionPreset.medium,
         enableAudio: false);
     controller.initialize().then((_) {
       if (!mounted) {
