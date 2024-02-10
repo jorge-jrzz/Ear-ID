@@ -34,13 +34,22 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-            child: Text("BEBA",
+        title: LayoutBuilder(
+          builder: (BuildContext context, BoxConstraints constraints) {
+            return Container(
+              width: constraints.maxWidth,
+              child: Text(
+                "BEBA",
                 style: TextStyle(
                   color: Colors.white70,
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
-                ))),
+                ),
+                textAlign: TextAlign.center,
+              ),
+            );
+          },
+        ),
         backgroundColor: const Color.fromARGB(255, 4, 36, 83),
       ),
       backgroundColor: Colors.blueAccent,
@@ -67,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                   onPressed: () async {
                     final cameras = await getCameras();
                     final controller = CameraController(
-                        cameras[0], ResolutionPreset.medium,
+                        cameras[1], ResolutionPreset.low,
                         enableAudio: false);
                     await controller.initialize();
                     Navigator.push(
@@ -140,13 +149,15 @@ class _CameraPreviewScreenState extends State<CameraPreviewScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-            child: Text("BEBA",
-                style: TextStyle(
-                  color: Colors.white70,
-                  fontSize: 40,
-                  fontWeight: FontWeight.bold,
-                ))),
+        title: Text(
+          "BEBA",
+          style: TextStyle(
+            color: Colors.white70,
+            fontSize: 40,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        centerTitle: true, // Añade esta línea
         backgroundColor: const Color.fromARGB(255, 4, 36, 83),
       ),
       backgroundColor: Colors.blueAccent,
