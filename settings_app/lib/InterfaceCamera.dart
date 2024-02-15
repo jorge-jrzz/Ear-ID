@@ -68,9 +68,24 @@ class _InterfaceCameraState extends State<InterfaceCamera> {
       );
     }
 
-    return AspectRatio(
-      aspectRatio: _controller.value.aspectRatio,
-      child: CameraPreview(_controller),
+    return Column(
+      children: [
+        Expanded(
+          child: AspectRatio(
+            aspectRatio: _controller.value.aspectRatio,
+            child: CameraPreview(_controller),
+          ),
+        ),
+        SizedBox(
+            height: MediaQuery.of(context).size.height *
+                0.25), // Acomoda la cámara a la mitad del dispositivo
+        ElevatedButton(
+          onPressed: () {
+            // Lógica para "agregar oreja" (puedes dejar vacío por ahora)
+          },
+          child: Text("Agregar oreja"),
+        ),
+      ],
     );
   }
 }
