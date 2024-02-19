@@ -24,13 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.settings_app"
-<<<<<<< HEAD
     compileSdkVersion 34
     //compileSdkVersion flutter.compileSdkVersion
-=======
-    // compiledSdkVersion 34
-    compileSdkVersion flutter.compileSdkVersion
->>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
     ndkVersion flutter.ndkVersion
 
     compileOptions {
