@@ -93,7 +93,6 @@ class _InterfaceCameraState extends State<InterfaceCamera> {
             child: Center(
               child: ElevatedButton(
                 onPressed: () {
-                  // Lógica para "agregar oreja" (puedes dejar vacío por ahora)
                 },
                 child: Text("Agregar oreja"),
               ),
