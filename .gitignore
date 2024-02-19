@@ -45,5 +45,5 @@ app.*.map.json
 # Mac OS
 *.DS_Store
 
-echo "settings_app/build/" >> .gitignore
-echo "settings_app/build/app/outputs/" >> .gitignore
+settings_app/build/app/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libVkLayer_khronos_validation.so
+settings_app/build/app/outputs/apk/debug/app-debug.apk
