@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:470d62bced6133ee3badeeed5ee803b21a4ece6134837e1f41e34c78285880a2
-size 928
-=======
 # Miscellaneous
 *.class
 *.log
@@ -49,4 +44,9 @@ app.*.map.json
 
 # Mac OS
 *.DS_Store
->>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
+
+echo "settings_app/build/" >> .gitignore
+echo "settings_app/build/app/outputs/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore large build files"
+git push
