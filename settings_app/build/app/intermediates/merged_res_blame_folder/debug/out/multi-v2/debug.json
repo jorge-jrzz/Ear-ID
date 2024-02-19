@@ -4878,6 +4878,28 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "3576,3628",
+                        "startColumns": "4,4",
+                        "startOffsets": "230373,234058",
+                        "endLines": "3579,3630",
+                        "endColumns": "12,12",
+                        "endOffsets": "230549,234222"
+                    }
+                },
+                {
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "source": "C:\\Users\\ivan_\\.gradle\\caches\\transforms-3\\076eb9235982ee06112d76594ea8585f\\transformed\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -4954,6 +4976,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
@@ -4971,6 +4994,8 @@
                     }
                 },
                 {
+=======
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "source": "C:\\Users\\ivan_\\.gradle\\caches\\transforms-3\\c66f021ea3881fb8355efe316d4dc596\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -5077,6 +5102,26 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,219,291,355,437,507,627,784,818,919,973,1043",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "108,164,214,286,350,432,502,622,779,813,914,968,1038,1086"
+                    },
+                    "to": {
+                        "startLines": "692,693,1310,1311,1312,1313,1314,1421,1472,1473,1479,1480,1483,1484",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "37175,37233,76745,76795,76867,76931,77013,87075,95857,96014,96850,96951,97129,97199",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "37228,37284,76790,76862,76926,77008,77078,87190,96009,96043,96946,97000,97194,97242"
+                    }
+                },
+                {
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "source": "C:\\Users\\ivan_\\.gradle\\caches\\transforms-3\\f9ab57318e353231e2e9f0f159e658ae\\transformed\\lifecycle-runtime-2.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -5151,6 +5196,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
@@ -5170,6 +5216,8 @@
                     }
                 },
                 {
+=======
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "source": "C:\\Users\\ivan_\\.gradle\\caches\\transforms-3\\6ac1273f2b629e3854cbf868c2c4383c\\transformed\\jetified-play-services-basement-17.4.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -5531,7 +5579,11 @@
             "outputFile": "com.example.settings_app-merged_res-43:/values-w820dp-v13_values-w820dp-v13.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -10053,6 +10105,7 @@
             "outputFile": "com.example.settings_app-merged_res-43:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
@@ -10061,6 +10114,16 @@
                         "endLines": "7,16",
                         "endColumns": "12,12",
                         "endOffsets": "482,997"
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,817",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,981"
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     },
                     "to": {
                         "startLines": "2,6",

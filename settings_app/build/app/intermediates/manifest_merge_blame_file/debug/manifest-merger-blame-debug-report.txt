@@ -13,6 +13,7 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
+<<<<<<< HEAD
 15-->C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:3:5-67
 15-->C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:3:22-64
 16    <uses-permission android:name="android.permission.CAMERA" />
@@ -41,6 +42,36 @@
 25    <uses-permission android:name="android.permission.WAKE_LOCK" />
 25-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
 25-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
+=======
+15-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:4:5-65
+16-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:4:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:5:5-71
+17-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:5:22-68
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:6:5-60
+19-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:6:19-57
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:7:5-70
+20-->C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\android\app\src\main\AndroidManifest.xml:7:19-67
+21
+22    <uses-permission android:name="android.permission.FLASHLIGHT" />
+22-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-69
+22-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-66
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+23-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+24-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
+25-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
 26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -92,9 +123,15 @@
 54        android:icon="@mipmap/ic_launcher"
 55        android:label="settings_app"
 56        android:largeHeap="true"
+<<<<<<< HEAD
 56-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
 57        android:theme="@style/Theme.AppCompat.NoActionBar" >
 57-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-59
+=======
+56-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
+57        android:theme="@style/Theme.AppCompat.NoActionBar" >
+57-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-59
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
 58        <activity
 59            android:name="com.example.settings_app.MainActivity"
 60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -129,6 +166,7 @@
 89            android:value="2" />
 90
 91        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+<<<<<<< HEAD
 91-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-91
 91-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:19-88
 92
@@ -183,10 +221,67 @@
 119                <action android:name="android.intent.action.MEDIA_BUTTON" />
 119-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
 119-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+=======
+91-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-91
+91-->[:flutter_barcode_scanner] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:19-88
+92
+93        <provider
+93-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+94            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+94-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+95            android:authorities="com.example.settings_app.flutter.image_provider"
+95-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+96            android:exported="false"
+96-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+100                android:resource="@xml/flutter_image_picker_file_paths" />
+100-->[:image_picker_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+101        </provider>
+102
+103        <activity
+103-->[:url_launcher_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+104            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+104-->[:url_launcher_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+105            android:exported="false"
+105-->[:url_launcher_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+106            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+106-->[:url_launcher_android] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+107
+108        <receiver
+108-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-20:20
+109            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+109-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-108
+110            android:exported="true" >
+110-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-36
+111            <intent-filter>
+111-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-19:29
+112                <action android:name="android.intent.action.MEDIA_BUTTON" />
+112-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
+112-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+113            </intent-filter>
+114        </receiver>
+115        <receiver
+115-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-27:20
+116            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+116-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-107
+117            android:exported="true" >
+117-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+118            <intent-filter>
+118-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-19:29
+119                <action android:name="android.intent.action.MEDIA_BUTTON" />
+119-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
+119-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
 120            </intent-filter>
 121        </receiver>
 122
 123        <service
+<<<<<<< HEAD
 123-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-40:19
 124            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
 124-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-101
@@ -207,6 +302,28 @@
 132                <action android:name="android.intent.action.MEDIA_BUTTON" />
 132-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
 132-->[:assets_audio_player] C:\Users\ivan_\Downloads\def\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+=======
+123-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-40:19
+124            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+124-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-101
+125            android:enabled="true"
+125-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-35
+126            android:exported="true"
+126-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-36
+127            android:foregroundServiceType="mediaPlayback" >
+127-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-58
+128            <intent-filter>
+128-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-36:29
+129                <action android:name="android.media.browse.MediaBrowserService" />
+129-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-83
+129-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-80
+130            </intent-filter>
+131            <intent-filter>
+131-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-19:29
+132                <action android:name="android.intent.action.MEDIA_BUTTON" />
+132-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
+132-->[:assets_audio_player] C:\Users\ivan_\Downloads\eariddefinitivo\Ear_ID\settings_app\build\assets_audio_player\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
 133            </intent-filter>
 134        </service>
 135

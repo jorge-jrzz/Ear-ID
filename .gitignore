@@ -1,3 +1,52 @@
+<<<<<<< HEAD
 version https://git-lfs.github.com/spec/v1
 oid sha256:470d62bced6133ee3badeeed5ee803b21a4ece6134837e1f41e34c78285880a2
 size 928
+=======
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Mac OS
+*.DS_Store
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616

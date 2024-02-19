@@ -4,7 +4,11 @@
             "outputFile": "com.example.settings_app-mergeDebugResources-41:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\build\\flutter_barcode_scanner\\intermediates\\packaged_res\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

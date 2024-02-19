@@ -4,6 +4,7 @@
             "outputFile": "com.example.settings_app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\ivan_\\Downloads\\def\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
@@ -12,6 +13,16 @@
                         "endLines": "7,16",
                         "endColumns": "12,12",
                         "endOffsets": "482,997"
+=======
+                    "source": "C:\\Users\\ivan_\\Downloads\\eariddefinitivo\\Ear_ID\\settings_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,817",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,981"
+>>>>>>> f0ac2afee33c2f7ea3c2cb1ea5117dfe7d865616
                     },
                     "to": {
                         "startLines": "2,6",
