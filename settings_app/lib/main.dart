@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'secondscreen.dart';
+import 'InterfaceCamera.dart';
 
 List<CameraDescription> cameras = [];
 
@@ -18,23 +19,44 @@ class MiApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Ajustes",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Configuración"),
-          centerTitle: false,
-        ),
-        body: ListView(
-          children: <Widget>[
-            CardInterface1(),
-            espaciado1_main(),
-            CardInterface2(),
-            espaciado2_main(),
-            CardInterface3(),
-            espaciado3_main(),
-            CardInterface4(),
-          ],
-        ),
-      ),
+      home: MyCustomNavigator(),
+    );
+  }
+}
+
+class MyCustomNavigator extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Navigator(
+      initialRoute: '/',
+      onGenerateRoute: (settings) {
+        switch (settings.name) {
+          case '/':
+            return MaterialPageRoute(
+                builder: (context) => Scaffold(
+                      appBar: AppBar(
+                        title: Text("Configuración"),
+                        centerTitle: false,
+                      ),
+                      body: ListView(
+                        children: <Widget>[
+                          CardInterface1(),
+                          espaciado1_main(),
+                          CardInterface2(),
+                          espaciado2_main(),
+                          CardInterface3(),
+                          espaciado3_main(),
+                          CardInterface4(),
+                        ],
+                      ),
+                    ));
+          case '/camera':
+            return MaterialPageRoute(
+                builder: (context) => InterfaceCamera(cameras: cameras));
+          default:
+            throw Exception('Invalid route: ${settings.name}');
+        }
+      },
     );
   }
 }
