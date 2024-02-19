@@ -47,6 +47,3 @@ app.*.map.json
 
 echo "settings_app/build/" >> .gitignore
 echo "settings_app/build/app/outputs/" >> .gitignore
-git add .gitignore
-git commit -m "Ignore large build files"
-git push
