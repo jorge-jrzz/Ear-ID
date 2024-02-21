@@ -67,7 +67,7 @@ class CardInterface1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 160,
+      height: 140,
       padding: EdgeInsets.only(right: 12.0, left: 12.0),
       width: 30,
       child: Card(
@@ -77,8 +77,8 @@ class CardInterface1 extends StatelessWidget {
           children: <Widget>[
             const ListTile(
               leading: Icon(
-                Icons.abc,
-                size: 50,
+                Icons.person,
+                size: 30,
               ),
               title: Text("Miguel Ángel"),
               subtitle: Text("Apple ID, iCloud+, compras y más"),
@@ -86,15 +86,14 @@ class CardInterface1 extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                Icons.ac_unit,
-                size: 50,
+                Icons.family_restroom,
+                size: 30,
               ),
-              subtitle: Text("Familia"),
+              title: Text("Familia"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             // IconButton(
             //   icon: Icon(Icons.abc),
-
             // )
           ],
         ),
@@ -122,8 +121,8 @@ class CardInterface2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
-      padding: EdgeInsets.only(right: 12.0, left: 12.0),
+      height: 240,
+      padding: EdgeInsets.only(bottom: 2.0, right: 15.0, left: 12.0),
       width: 30,
       child: Card(
         color: Color.fromARGB(255, 255, 255, 255),
@@ -135,7 +134,7 @@ class CardInterface2 extends StatelessWidget {
                 Icons.airplanemode_active,
                 size: 30,
               ),
-              subtitle: Text("Modo vuelo"),
+              title: Text("Modo vuelo"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -143,7 +142,7 @@ class CardInterface2 extends StatelessWidget {
                 Icons.wifi,
                 size: 30,
               ),
-              subtitle: Text("Wi-Fi"),
+              title: Text("Wi-Fi"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -151,7 +150,7 @@ class CardInterface2 extends StatelessWidget {
                 Icons.bluetooth,
                 size: 30,
               ),
-              subtitle: Text("Bluetooth"),
+              title: Text("Bluetooth"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -159,7 +158,7 @@ class CardInterface2 extends StatelessWidget {
                 Icons.signal_cellular_alt,
                 size: 30,
               ),
-              subtitle: Text("Red celular"),
+              title: Text("Red celular"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
           ],
@@ -188,7 +187,7 @@ class CardInterface3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
+      height: 240,
       padding: EdgeInsets.only(right: 12.0, left: 12.0),
       child: Card(
         color: Color.fromARGB(255, 255, 255, 255),
@@ -200,7 +199,7 @@ class CardInterface3 extends StatelessWidget {
                 Icons.notifications,
                 size: 30,
               ),
-              subtitle: Text("Notificaciones"),
+              title: Text("Notificaciones"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -208,15 +207,15 @@ class CardInterface3 extends StatelessWidget {
                 Icons.vibration,
                 size: 30,
               ),
-              subtitle: Text("Sonidos y vibración"),
+              title: Text("Sonidos y vibración"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
               leading: Icon(
-                Icons.ac_unit,
+                Icons.nightlight_round,
                 size: 30,
               ),
-              subtitle: Text("Enfoque"),
+              title: Text("Enfoque"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -224,7 +223,7 @@ class CardInterface3 extends StatelessWidget {
                 Icons.hourglass_empty,
                 size: 30,
               ),
-              subtitle: Text("Tiempo en pantalla"),
+              title: Text("Tiempo en pantalla"),
               trailing: Icon(Icons.navigate_next, size: 30),
             )
           ],
@@ -253,7 +252,7 @@ class CardInterface4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 730,
+      height: 520,
       padding: EdgeInsets.only(right: 12.0, left: 12.0),
       child: Card(
         color: Color.fromARGB(255, 255, 255, 255),
@@ -262,10 +261,10 @@ class CardInterface4 extends StatelessWidget {
           children: <Widget>[
             const ListTile(
               leading: Icon(
-                Icons.abc,
+                Icons.settings,
                 size: 30,
               ),
-              subtitle: Text("General"),
+              title: Text("General"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -273,7 +272,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.toggle_on,
                 size: 30,
               ),
-              subtitle: Text("Centro de control"),
+              title: Text("Centro de control"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -281,7 +280,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.brightness_4,
                 size: 30,
               ),
-              subtitle: Text("Pantalla y brillo"),
+              title: Text("Pantalla y brillo"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -289,7 +288,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.apps,
                 size: 30,
               ),
-              subtitle: Text("Pantalla de inicio y biblioteca de apps"),
+              title: Text("Pantalla de inicio y biblioteca de apps"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -297,23 +296,15 @@ class CardInterface4 extends StatelessWidget {
                 Icons.accessibility,
                 size: 30,
               ),
-              subtitle: Text("Accesibilidad"),
+              title: Text("Accesibilidad"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
               leading: Icon(
-                Icons.ac_unit,
+                Icons.stream,
                 size: 30,
               ),
-              subtitle: Text("Fondo de pantalla"),
-              trailing: Icon(Icons.navigate_next, size: 30),
-            ),
-            const ListTile(
-              leading: Icon(
-                Icons.ac_unit,
-                size: 30,
-              ),
-              subtitle: Text("En reposo"),
+              title: Text("Fondo de pantalla"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -321,7 +312,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.search,
                 size: 30,
               ),
-              subtitle: Text("Siri y Buscar"),
+              title: Text("Siri y Buscar"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             const ListTile(
@@ -329,7 +320,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.fullscreen,
                 size: 30,
               ),
-              subtitle: Text("Face ID y código"),
+              title: Text("Face ID y código"),
               trailing: Icon(Icons.navigate_next, size: 30),
             ),
             ListTile(
@@ -337,7 +328,7 @@ class CardInterface4 extends StatelessWidget {
                 Icons.hearing,
                 size: 30,
               ),
-              subtitle: Text("Ear ID y código"),
+              title: Text("Ear ID y código"),
               trailing: Icon(Icons.navigate_next, size: 30),
               onTap: () {
                 Navigator.push(
