@@ -27,6 +27,8 @@ class SecondScreen extends StatelessWidget {
             CardInterface1(),
             Espaciado1(),
             CardInterface2(),
+            Espaciado2(),
+            CardInterface3(),
           ],
         ),
       ),
@@ -98,7 +100,7 @@ class Espaciado1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: 30,
       padding: EdgeInsets.only(right: 12.0, left: 12.0),
       width: 30,
     );
@@ -120,6 +122,47 @@ class CardInterface2 extends StatelessWidget {
             ListTile(
               title: Text("Agregar oreja", style: TextStyle(fontSize: 18.0)),
               textColor: Colors.blue,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => InterfaceCamera(cameras: cameras)),
+                );
+              },
+            ),
+          ])),
+    );
+  }
+}
+
+class Espaciado2 extends StatelessWidget {
+  const Espaciado2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 10,
+      padding: EdgeInsets.only(right: 12.0, left: 12.0),
+      width: 30,
+    );
+  }
+}
+
+class CardInterface3 extends StatelessWidget {
+  const CardInterface3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 65,
+      padding: EdgeInsets.only(right: 12.0, left: 12.0),
+      width: 30,
+      child: Card(
+          color: Color.fromARGB(255, 255, 255, 255),
+          child: Column(mainAxisSize: MainAxisSize.min, children: <Widget>[
+            ListTile(
+              title: Text("Eliminar oreja", style: TextStyle(fontSize: 18.0)),
+              textColor: const Color.fromARGB(255, 243, 33, 33),
               onTap: () {
                 Navigator.push(
                   context,
