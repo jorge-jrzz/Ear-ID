@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['ear']
+
+roboflow:
+  workspace: workspace-denhk
+  project: ear-recognition
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/workspace-denhk/ear-recognition/dataset/1
