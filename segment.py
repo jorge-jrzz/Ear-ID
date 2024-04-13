@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 # Leer nuestro modelo
-model = YOLO('best.pt')
+model = YOLO('best_v4.pt')
 
 # Realizar Video Captura
 cap = cv2.VideoCapture(0)
@@ -13,7 +13,7 @@ while True:
     ret, frame = cap.read()
 
     # Leer los resultados de la deteccion
-    results = model.predict(frame, imgsz=640, conf=0.60)
+    results = model.predict(frame, imgsz=640, conf=0.80, verbose=False)
 
     # Mostrar fotogramas
     anotaciones = results[0].plot()
