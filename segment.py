@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 # Leer nuestro modelo
-model = YOLO('best_v4.pt')
+model = YOLO('models/best_v4.pt')
 
 # Realizar Video Captura
 cap = cv2.VideoCapture(0)
