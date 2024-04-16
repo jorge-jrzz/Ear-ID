@@ -6,8 +6,8 @@ nc: 1
 names: ['ear']
 
 roboflow:
-  workspace: workspace-denhk
-  project: ear-recognition
-  version: 1
+  workspace: mutyi
+  project: ear-segmentation
+  version: 3
   license: MIT
-  url: https://universe.roboflow.com/workspace-denhk/ear-recognition/dataset/1
+  url: https://universe.roboflow.com/mutyi/ear-segmentation/dataset/3
